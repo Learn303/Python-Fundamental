@@ -1,4 +1,4 @@
-#PENGULANGAN dengan for
+#PENGULANGAN deng an for
 jumlah_buku = 99
 print('ibu berkata, "baca semua buku"')
 jumlah_buku_yang_sudah_dibaca = 0

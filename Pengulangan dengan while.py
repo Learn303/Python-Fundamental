@@ -1,6 +1,6 @@
 #pengulangan dengan while
 jumlah_buku = 10
-print ('ibu berkata, "baca bukumu!"')
+print ('ibu berkata, "baca bukumu!"')   
 
 jumlah_buku_yang_dibaca = 0
 print(f'jumlah buku yang sudah dibaca = {jumlah_buku_yang_dibaca}')

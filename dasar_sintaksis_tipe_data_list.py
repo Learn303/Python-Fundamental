@@ -53,3 +53,16 @@ daftar_buku = ['seven habbit', 'how to influence people', 'thing first thing', '
 daftar_buku.pop(-1)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+
+print('\nMenghapus menggunakan DEL')
+daftar_buku = ['seven habbit', 'how to influence people', 'thing first thing', 'aadc']
+del daftar_buku[3]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPerintah del dengan list comprehanssion')
+daftar_buku = ['seven habbit', 'how to influence people', 'thing first thing', 'aadc']
+del daftar_buku[0:2]#menghapus mulai dari 0 sejumlah 2 element
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
